@@ -257,12 +257,7 @@
     <Compile Include="Models\Event_User.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Lesson.cs" />
-    <Compile Include="Models\NewMan%27sModel.cs" />
-    <Compile Include="Models\NmbaModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>NmbaModel.edmx</DependentUpon>
-    </Compile>
+    <Compile Include="Models\NewMansModel.cs" />
     <Compile Include="Models\Notification.cs" />
     <Compile Include="Models\Program.cs" />
     <Compile Include="Models\Qna.cs" />
@@ -308,13 +303,6 @@
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <EntityDeploy Include="Models\NmbaModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>NmbaModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\NmbaModel.edmx.diagram">
-      <DependentUpon>NmbaModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
