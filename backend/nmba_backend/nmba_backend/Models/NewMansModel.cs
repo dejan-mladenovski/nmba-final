@@ -7,11 +7,11 @@ using System.Data.Entity;
 
 namespace nmba_backend.Models
 {
-    public class NewMan_sModel: DbContext
+    public class NewMansModel: DbContext
     {
-        public NewMan_sModel(): base("name = DefaultConnection")
+        public NewMansModel(): base("name = DefaultConnection")
         {
-            Database.SetInitializer<NewMan_sModel>(new CreateDatabaseIfNotExists<NewMan_sModel>());
+            Database.SetInitializer<NewMansModel>(new CreateDatabaseIfNotExists<NewMansModel>());
         }
 
 
